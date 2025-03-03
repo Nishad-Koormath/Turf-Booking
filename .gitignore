@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.env
+Pipfile
+Pipfile.lock
+
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Django-related
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# MacOS and Linux files
+.DS_Store
+*.swp
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+
+# Production environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vercel/
+.vercel_cache/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency locks (optional, if using lockfiles)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
